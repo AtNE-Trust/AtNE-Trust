@@ -7,7 +7,7 @@ import sys
 
 
 class Side(object):
-  """ SiDE model inference graph """
+ 
 
   def __init__(self, config, sess):
     """
@@ -134,7 +134,7 @@ class Side(object):
 
   def train(self):
     """
-    Train the side model using multi threads
+    Train the model
     """
     initial_epoch, initial_words = self._sess.run([self._epoch, self._words_processed])
     self.summary = tf.summary.merge_all()
