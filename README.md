@@ -5,8 +5,13 @@ Datasets: Epinions and Ciao datasets are used in this paper. The raw datasets ar
 
 Epinions and Ciao datasets contain several information to fufill our algorithm. The input of our paper are as follows:
 1. trust relationships (trustor, trustee, trust_value)
-2. rating values (user, item, rating)
-3. reviews (user, item, reviews)
+2. rating values (u, v, rating)
+3. reviews (u, v, reviews)
+4. items(v, content, category)
+
+u represents users, v represents items. There are also detail information about items including their contents and categories.
+
+
 
 Run our algorithm with the following steps:
 1. generate trust network embedding with "trust_network_embedding"
