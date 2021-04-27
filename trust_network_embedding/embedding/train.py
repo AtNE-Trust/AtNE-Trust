@@ -9,7 +9,7 @@ import numpy as np
 
 def train(config):
   """
-  Build side model object and train for epochs_to_train epochs
+  Build model object and train for epochs_to_train epochs
   Save tensorflow checkpoint file and summary file for later usage
 
   :param config: a dictionary containing keys like
@@ -19,7 +19,7 @@ def train(config):
 
   Returns
   -------
-  side model object
+
   """
   t0 = time()
   with tf.Session() as sess:
