@@ -1,0 +1,5 @@
+Note that this trust network embedding code is developed based on the code of paper "Side: Representation learning
+in signed directed networks" 
+
+J. Kim, H. Park, J.-E. Lee, and U. Kang, “Side: Representation learning
+in signed directed networks,” in WWW, 2018, pp. 509–518.
