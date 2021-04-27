@@ -266,6 +266,8 @@ def main(args):
     
     
     # autoencoder-network
+    # to run the full code, users need to run "trust network embedding code with your input and generate the corresponding output"
+    # next name anouther authoencoder and decoder as below. then you can run the full code with your own input.
     weights_network = { 
         'encoder_h1': tf.Variable(tf.truncated_normal([TRIGRAM_D, n_hidden_1],)), 
         'encoder_h2': tf.Variable(tf.truncated_normal([n_hidden_1, n_hidden_2],)), 
